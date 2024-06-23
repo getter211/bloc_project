@@ -1,21 +1,70 @@
 .form {
-    width: fit-content;
-    padding: 2rem;
-    border: .5px solid #878787;
-    border-radius: 10px;
-    min-width: 450px;
+  width: 100%;
+  max-width: 450px;
+  padding: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
 
-    .descriptionContainer {
-        text-align: left;
+.form .descriptionContainer {
+  text-align: left;
+  margin-bottom: 1.5rem;
+}
 
-        h2 {
-            font-weight: 700;
-            font-size: 25px;
-        }
+.form .descriptionContainer h2 {
+  font-weight: 700;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
 
-        p {
-            font-weight: 400;
-            font-size: 16px;
-        }
-    }
+.form .descriptionContainer p {
+  font-weight: 400;
+  font-size: 1rem;
+  color: #666;
+}
+
+.form .form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: #555;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="password"] {
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form .submit-btn {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form .submit-btn:hover {
+  background-color: #45a049;
+}
+
+.form .error-message {
+  color: #ff0000;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
 }

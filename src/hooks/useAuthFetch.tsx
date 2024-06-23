@@ -1,3 +1,4 @@
+'use client';
 import NotificationContext from '@/context/NotificationContext'
 import axios, { AxiosRequestConfig } from 'axios'
 import { useRouter } from 'next/navigation'

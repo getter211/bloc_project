@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className={styles.container}>
         <div className={styles.logo}>
           <Link href="/" className={styles.logoText}>
-            Tu Blog
+            Blog Yucateco 😸
           </Link>
         </div>
 
@@ -17,25 +17,17 @@ const Navbar = () => {
             <Link className={styles.menuLink} href="/home">
               Home
             </Link>
-            <Link className={styles.menuLink} href="/blog">
-              Blog
+            <Link className={styles.menuLink} href="/profile">
+              Profile
             </Link>
             <Link className={styles.menuLink} href="/about">
               About
             </Link>
-            <Link className={styles.menuLink} href="/contact">
-              Contact
+            <Link className={styles.menuLink} href="/settings">
+              Settings
             </Link>
+            Botto
           </div>
-        </div>
-
-        <div className={styles.actions}>
-          <Link className={styles.actionLink} href="/login">
-            Iniciar sesión
-          </Link>
-          <Link className={styles.actionLink} href="/register">
-            Registrarse
-          </Link>
         </div>
       </div>
     </nav>
